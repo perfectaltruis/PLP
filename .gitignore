@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+*.pyo
+*.pyd
+
+# SQL
+*.sqlite
+
+# Web development
+/node_modules
+.DS_Store
+.sass-cache/
+*.css.map
+*.js.map
+.env
+
+# IDE or editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sql
+
+# Compiled files
+*.min.js
+*.min.css
+
+# OS generated files
+.DS_Store
+Thumbs.db
