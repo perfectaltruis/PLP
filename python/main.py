@@ -1,1 +1,5 @@
-print("The default page of this is to think it")
+x = {}
+x[2] = 10
+x[1] = [20, 30, 40]
+
+print(x[1][2])
