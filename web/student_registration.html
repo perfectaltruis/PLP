@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registraion Form</title>
+
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">others</option>
+            <option value="Prefer Not To Say">Prefer not to say</option>
+        </select>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10" required></textarea>
+
+        <label for="telephone">Telephone</label>
+        <input type="tel" name="telephone" id="telephone" required>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="course">Course:</label>
+        <input type="text" name="course" id="course" required>
+
+        <button type="submit">Submit</button>
+        <button type="button" onclick="cancelRegistration()">Cancel</button>
+    </form>
+</body>
+</html>
