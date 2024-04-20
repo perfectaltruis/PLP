@@ -20,7 +20,7 @@ def generate_fibonacci(n):
 
 def main():
     """
-    Main function to execute the program.
+    Main function to execute the fibonacci program.
     """
 
     # use input
